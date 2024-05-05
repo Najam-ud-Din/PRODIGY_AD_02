@@ -11,7 +11,7 @@ import 'package:to_do_app/Pages/addtodo.dart';
 import 'package:to_do_app/Pages/signinpage.dart';
 import 'package:to_do_app/Pages/signuppage.dart';
 import 'package:to_do_app/Pages/splashscreen.dart';
-import 'package:to_do_app/Pages/practice.dart';
+
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -51,7 +51,7 @@ class _MyAppState extends State<MyApp> {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomePage1(),
+      home: SplashScreen(),
     );
     //Scaffold(
     //   appBar: AppBar(
